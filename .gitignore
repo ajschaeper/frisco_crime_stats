@@ -1,0 +1,6 @@
+**/*.sw?
+.tempfile
+.ipynb_checkpoints/
+.tempfile
+.workspace-config.json
+police-department-calls-for-service.json
