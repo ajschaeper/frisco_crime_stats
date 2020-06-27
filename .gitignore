@@ -4,3 +4,5 @@
 .tempfile
 .workspace-config.json
 police-department-calls-for-service.json
+data.json
+__pycache__/
