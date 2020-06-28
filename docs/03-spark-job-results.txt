@@ -1,0 +1,3071 @@
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = false
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 1
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	group.id = spark-kafka-source-118aad51-d691-49b0-88ea-400e5c9be876-357520991-driver-0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = earliest
+
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = false
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = consumer-1
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 1
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	group.id = spark-kafka-source-118aad51-d691-49b0-88ea-400e5c9be876-357520991-driver-0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = earliest
+
+root
+ |-- key: binary (nullable = true)
+ |-- value: binary (nullable = true)
+ |-- topic: string (nullable = true)
+ |-- partition: integer (nullable = true)
+ |-- offset: long (nullable = true)
+ |-- timestamp: timestamp (nullable = true)
+ |-- timestampType: integer (nullable = true)
+
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = false
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 1
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	group.id = spark-kafka-source-7d4f899f-1951-4c1c-b333-7b60a89bb2d5-1866871835-driver-0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = earliest
+
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = false
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = consumer-2
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 1
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	group.id = spark-kafka-source-7d4f899f-1951-4c1c-b333-7b60a89bb2d5-1866871835-driver-0
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = earliest
+
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = false
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 2147483647
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	group.id = spark-kafka-source-7d4f899f-1951-4c1c-b333-7b60a89bb2d5-1866871835-executor
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = none
+
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [localhost:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = false
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = consumer-3
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 2147483647
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 5000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	group.id = spark-kafka-source-7d4f899f-1951-4c1c-b333-7b60a89bb2d5-1866871835-executor
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = none
+
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                    9|
+|            Traffic Stop|                    8|
+|           Audible Alarm|                    3|
+|       Assault / Battery|                    2|
+|      Auto Boost / Strip|                    1|
+|       Strongarm Robbery|                    1|
+|       Suspicious Person|                    1|
+|      Suspicious Vehicle|                    1|
+|                     Att|                    1|
+|     Traf Violation Cite|                    1|
+|            Drunk Driver|                    1|
+|                    Poss|                    1|
+|         Fight No Weapon|                    1|
++------------------------+---------------------+
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:47:31.005Z",
+  "batchId" : 0,
+  "numInputRows" : 32,
+  "processedRowsPerSecond" : 1.1147106977392274,
+  "durationMs" : {
+    "addBatch" : 23822,
+    "getBatch" : 292,
+    "getOffset" : 3319,
+    "queryPlanning" : 1203,
+    "triggerExecution" : 28706,
+    "walCommit" : 50
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T23:29:23.225Z",
+    "max" : "2018-12-31T23:57:00.000Z",
+    "min" : "2018-12-31T23:12:00.000Z",
+    "watermark" : "1970-01-01T00:00:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 26,
+    "numRowsUpdated" : 26,
+    "memoryUsedBytes" : 33017
+  }, {
+    "numRowsTotal" : 31,
+    "numRowsUpdated" : 31,
+    "memoryUsedBytes" : 20753
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : null,
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 32
+      }
+    },
+    "numInputRows" : 32,
+    "processedRowsPerSecond" : 1.1147106977392274
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 1
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   17|
+|            Traffic Stop|                   12|
+|           Audible Alarm|                    5|
+|       Assault / Battery|                    3|
+|      Suspicious Vehicle|                    3|
+|         Fight No Weapon|                    3|
+|      Auto Boost / Strip|                    2|
+|          Noise Nuisance|                    2|
+|                      Jo|                    1|
+|       Strongarm Robbery|                    1|
+|       Suspicious Person|                    1|
+|                   Party|                    1|
+|                     Att|                    1|
+|                    Fire|                    1|
+|     Traf Violation Cite|                    1|
+|      Traf Violation Tow|                    1|
+|      Intoxicated Person|                    1|
+|            Drunk Driver|                    1|
+|     H&r Injury Accident|                    1|
+|                     518|                    1|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:47:59.832Z",
+  "batchId" : 1,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 1.1100704200922746,
+  "processedRowsPerSecond" : 1.894500029601563,
+  "durationMs" : {
+    "addBatch" : 16663,
+    "getBatch" : 9,
+    "getOffset" : 6,
+    "queryPlanning" : 148,
+    "triggerExecution" : 16891,
+    "walCommit" : 61
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T22:59:36.000Z",
+    "max" : "2018-12-31T23:11:00.000Z",
+    "min" : "2018-12-31T22:50:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 44,
+    "numRowsUpdated" : 32,
+    "memoryUsedBytes" : 44392
+  }, {
+    "numRowsTotal" : 61,
+    "numRowsUpdated" : 30,
+    "memoryUsedBytes" : 29320
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 32
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 64
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 1.1100704200922746,
+    "processedRowsPerSecond" : 1.894500029601563
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 2
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   24|
+|            Traffic Stop|                   17|
+|           Audible Alarm|                    8|
+|      Auto Boost / Strip|                    3|
+|       Assault / Battery|                    3|
+|          Noise Nuisance|                    3|
+|      Suspicious Vehicle|                    3|
+|         Fight No Weapon|                    3|
+|                      Jo|                    2|
+|                     601|                    2|
+|      Traf Violation Tow|                    2|
+|             Petty Theft|                    1|
+|       Strongarm Robbery|                    1|
+|                   Caser|                    1|
+|                    Vict|                    1|
+|                  22500e|                    1|
+|                  22500f|                    1|
+|       Suspicious Person|                    1|
+|            Veh Accident|                    1|
+|        Well Being Check|                    1|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:48:16.778Z",
+  "batchId" : 2,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 1.888351233329399,
+  "processedRowsPerSecond" : 2.4034850533273246,
+  "durationMs" : {
+    "addBatch" : 13194,
+    "getBatch" : 7,
+    "getOffset" : 3,
+    "queryPlanning" : 93,
+    "triggerExecution" : 13314,
+    "walCommit" : 16
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T22:36:53.999Z",
+    "max" : "2018-12-31T22:50:00.000Z",
+    "min" : "2018-12-31T22:26:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 64,
+    "numRowsUpdated" : 34,
+    "memoryUsedBytes" : 48584
+  }, {
+    "numRowsTotal" : 91,
+    "numRowsUpdated" : 30,
+    "memoryUsedBytes" : 35480
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 64
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 96
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 1.888351233329399,
+    "processedRowsPerSecond" : 2.4034850533273246
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 3
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   32|
+|            Traffic Stop|                   21|
+|           Audible Alarm|                    8|
+|      Suspicious Vehicle|                    5|
+|      Auto Boost / Strip|                    4|
+|          Noise Nuisance|                    4|
+|       Suspicious Person|                    4|
+|     Traf Violation Cite|                    4|
+|         Fight No Weapon|                    4|
+|       Assault / Battery|                    3|
+|                     601|                    3|
+|        Well Being Check|                    3|
+|                      Jo|                    2|
+|      Traf Violation Tow|                    2|
+|                     518|                    2|
+|             Petty Theft|                    1|
+|       Strongarm Robbery|                    1|
+|                   Caser|                    1|
+|                    Vict|                    1|
+|                  22500e|                    1|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:48:30.156Z",
+  "batchId" : 3,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.3919868440723575,
+  "processedRowsPerSecond" : 2.3467292461132296,
+  "durationMs" : {
+    "addBatch" : 13555,
+    "getBatch" : 5,
+    "getOffset" : 3,
+    "queryPlanning" : 50,
+    "triggerExecution" : 13636,
+    "walCommit" : 21
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T22:13:46.451Z",
+    "max" : "2018-12-31T22:25:00.000Z",
+    "min" : "2018-12-31T22:04:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 72,
+    "numRowsUpdated" : 30,
+    "memoryUsedBytes" : 50438
+  }, {
+    "numRowsTotal" : 122,
+    "numRowsUpdated" : 31,
+    "memoryUsedBytes" : 42038
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 96
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 128
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.3919868440723575,
+    "processedRowsPerSecond" : 2.3467292461132296
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 4
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   37|
+|            Traffic Stop|                   28|
+|           Audible Alarm|                    9|
+|      Suspicious Vehicle|                    8|
+|     Traf Violation Cite|                    6|
+|      Auto Boost / Strip|                    4|
+|          Noise Nuisance|                    4|
+|                     601|                    4|
+|       Suspicious Person|                    4|
+|         Fight No Weapon|                    4|
+|                      Jo|                    3|
+|       Assault / Battery|                    3|
+|        Well Being Check|                    3|
+|                   Caser|                    2|
+|            Veh Accident|                    2|
+|      Traf Violation Tow|                    2|
+|     H&r Injury Accident|                    2|
+|        H&r Veh Accident|                    2|
+|                     518|                    2|
+|                    Poss|                    2|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:48:43.814Z",
+  "batchId" : 4,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.3429491872895007,
+  "processedRowsPerSecond" : 2.5925625860811796,
+  "durationMs" : {
+    "addBatch" : 12239,
+    "getBatch" : 6,
+    "getOffset" : 2,
+    "queryPlanning" : 72,
+    "triggerExecution" : 12342,
+    "walCommit" : 23
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T21:54:00.000Z",
+    "max" : "2018-12-31T22:03:00.000Z",
+    "min" : "2018-12-31T21:45:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 80,
+    "numRowsUpdated" : 32,
+    "memoryUsedBytes" : 52101
+  }, {
+    "numRowsTotal" : 151,
+    "numRowsUpdated" : 29,
+    "memoryUsedBytes" : 48021
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 128
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 160
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.3429491872895007,
+    "processedRowsPerSecond" : 2.5925625860811796
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 5
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   42|
+|            Traffic Stop|                   33|
+|      Suspicious Vehicle|                   10|
+|           Audible Alarm|                    9|
+|     Traf Violation Cite|                    7|
+|         Fight No Weapon|                    7|
+|          Noise Nuisance|                    6|
+|      Auto Boost / Strip|                    5|
+|       Suspicious Person|                    5|
+|       Assault / Battery|                    4|
+|                     601|                    4|
+|        Well Being Check|                    4|
+|                      Jo|                    3|
+|                  22500f|                    3|
+|             Petty Theft|                    2|
+|                   Caser|                    2|
+|              Trespasser|                    2|
+|            Veh Accident|                    2|
+|          Meet W/citizen|                    2|
+|      Traf Violation Tow|                    2|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:48:56.226Z",
+  "batchId" : 5,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.5781501772478244,
+  "processedRowsPerSecond" : 2.5346534653465347,
+  "durationMs" : {
+    "addBatch" : 12556,
+    "getBatch" : 5,
+    "getOffset" : 2,
+    "queryPlanning" : 46,
+    "triggerExecution" : 12625,
+    "walCommit" : 14
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T21:26:29.999Z",
+    "max" : "2018-12-31T21:45:00.000Z",
+    "min" : "2018-12-31T21:10:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 90,
+    "numRowsUpdated" : 36,
+    "memoryUsedBytes" : 54227
+  }, {
+    "numRowsTotal" : 183,
+    "numRowsUpdated" : 32,
+    "memoryUsedBytes" : 54739
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 160
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 192
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.5781501772478244,
+    "processedRowsPerSecond" : 2.5346534653465347
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 6
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   46|
+|            Traffic Stop|                   36|
+|      Suspicious Vehicle|                   11|
+|           Audible Alarm|                   10|
+|       Suspicious Person|                    9|
+|     Traf Violation Cite|                    8|
+|         Fight No Weapon|                    8|
+|      Auto Boost / Strip|                    7|
+|          Noise Nuisance|                    7|
+|       Assault / Battery|                    5|
+|        Well Being Check|                    5|
+|                  22500e|                    4|
+|                     601|                    4|
+|                      Jo|                    3|
+|                  22500f|                    3|
+|             Petty Theft|                    2|
+|                   Caser|                    2|
+|                     J/o|                    2|
+|              Trespasser|                    2|
+|            Veh Accident|                    2|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:49:08.907Z",
+  "batchId" : 6,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.5234602949294223,
+  "processedRowsPerSecond" : 2.895665550628902,
+  "durationMs" : {
+    "addBatch" : 10977,
+    "getBatch" : 7,
+    "getOffset" : 3,
+    "queryPlanning" : 43,
+    "triggerExecution" : 11051,
+    "walCommit" : 20
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T20:58:56.250Z",
+    "max" : "2018-12-31T21:10:00.000Z",
+    "min" : "2018-12-31T20:46:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 106,
+    "numRowsUpdated" : 42,
+    "memoryUsedBytes" : 57602
+  }, {
+    "numRowsTotal" : 215,
+    "numRowsUpdated" : 32,
+    "memoryUsedBytes" : 61618
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 192
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 224
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.5234602949294223,
+    "processedRowsPerSecond" : 2.895665550628902
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 7
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   51|
+|            Traffic Stop|                   37|
+|      Suspicious Vehicle|                   12|
+|       Suspicious Person|                   11|
+|     Traf Violation Cite|                   10|
+|           Audible Alarm|                   10|
+|         Fight No Weapon|                    9|
+|      Auto Boost / Strip|                    8|
+|          Noise Nuisance|                    7|
+|                  22500e|                    6|
+|       Assault / Battery|                    5|
+|              Trespasser|                    5|
+|        Well Being Check|                    5|
+|                     601|                    4|
+|          Meet W/citizen|                    4|
+|                      Jo|                    3|
+|                  22500f|                    3|
+|      Homeless Complaint|                    3|
+|             Petty Theft|                    2|
+|                   Caser|                    2|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:49:19.979Z",
+  "batchId" : 7,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.8901734104046244,
+  "processedRowsPerSecond" : 2.780915964195707,
+  "durationMs" : {
+    "addBatch" : 11429,
+    "getBatch" : 8,
+    "getOffset" : 2,
+    "queryPlanning" : 42,
+    "triggerExecution" : 11507,
+    "walCommit" : 25
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T20:28:56.250Z",
+    "max" : "2018-12-31T20:41:00.000Z",
+    "min" : "2018-12-31T20:14:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 124,
+    "numRowsUpdated" : 42,
+    "memoryUsedBytes" : 61440
+  }, {
+    "numRowsTotal" : 247,
+    "numRowsUpdated" : 32,
+    "memoryUsedBytes" : 68592
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 224
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 256
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.8901734104046244,
+    "processedRowsPerSecond" : 2.780915964195707
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 8
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   57|
+|            Traffic Stop|                   40|
+|      Suspicious Vehicle|                   14|
+|       Suspicious Person|                   12|
+|     Traf Violation Cite|                   12|
+|           Audible Alarm|                   11|
+|         Fight No Weapon|                    9|
+|      Auto Boost / Strip|                    8|
+|          Noise Nuisance|                    7|
+|                  22500e|                    6|
+|              Trespasser|                    6|
+|        Well Being Check|                    6|
+|       Assault / Battery|                    5|
+|                     601|                    4|
+|          Meet W/citizen|                    4|
+|      Homeless Complaint|                    4|
+|                      Jo|                    3|
+|                  22500f|                    3|
+|      Traf Violation Tow|                    3|
+|        H&r Veh Accident|                    3|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:49:31.506Z",
+  "batchId" : 8,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.776090916977531,
+  "processedRowsPerSecond" : 2.4246097893620244,
+  "durationMs" : {
+    "addBatch" : 13105,
+    "getBatch" : 5,
+    "getOffset" : 3,
+    "queryPlanning" : 53,
+    "triggerExecution" : 13198,
+    "walCommit" : 32
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T20:03:10.344Z",
+    "max" : "2018-12-31T20:14:00.000Z",
+    "min" : "2018-12-31T19:52:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 134,
+    "numRowsUpdated" : 40,
+    "memoryUsedBytes" : 63552
+  }, {
+    "numRowsTotal" : 276,
+    "numRowsUpdated" : 29,
+    "memoryUsedBytes" : 74984
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 256
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 288
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.776090916977531,
+    "processedRowsPerSecond" : 2.4246097893620244
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 9
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   66|
+|            Traffic Stop|                   44|
+|      Suspicious Vehicle|                   15|
+|       Suspicious Person|                   13|
+|           Audible Alarm|                   13|
+|     Traf Violation Cite|                   12|
+|         Fight No Weapon|                   10|
+|      Auto Boost / Strip|                    8|
+|                  22500e|                    8|
+|          Noise Nuisance|                    7|
+|        Well Being Check|                    7|
+|              Trespasser|                    6|
+|       Assault / Battery|                    5|
+|      Homeless Complaint|                    5|
+|                     601|                    4|
+|          Meet W/citizen|                    4|
+|                      Jo|                    3|
+|                     J/o|                    3|
+|                  22500f|                    3|
+|      Traf Violation Tow|                    3|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:49:44.724Z",
+  "batchId" : 9,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.4209411408685124,
+  "processedRowsPerSecond" : 2.7456027456027456,
+  "durationMs" : {
+    "addBatch" : 11584,
+    "getBatch" : 6,
+    "getOffset" : 3,
+    "queryPlanning" : 38,
+    "triggerExecution" : 11655,
+    "walCommit" : 23
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T19:42:12.857Z",
+    "max" : "2018-12-31T19:51:00.000Z",
+    "min" : "2018-12-31T19:35:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 140,
+    "numRowsUpdated" : 30,
+    "memoryUsedBytes" : 64896
+  }, {
+    "numRowsTotal" : 304,
+    "numRowsUpdated" : 28,
+    "memoryUsedBytes" : 81080
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 288
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 320
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.4209411408685124,
+    "processedRowsPerSecond" : 2.7456027456027456
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 10
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   71|
+|            Traffic Stop|                   48|
+|      Suspicious Vehicle|                   18|
+|           Audible Alarm|                   15|
+|       Suspicious Person|                   13|
+|     Traf Violation Cite|                   13|
+|         Fight No Weapon|                   11|
+|      Auto Boost / Strip|                    9|
+|                  22500e|                    8|
+|          Noise Nuisance|                    8|
+|        Well Being Check|                    8|
+|              Trespasser|                    7|
+|       Assault / Battery|                    5|
+|      Homeless Complaint|                    5|
+|                      Jo|                    4|
+|                     601|                    4|
+|          Meet W/citizen|                    4|
+|                     J/o|                    3|
+|                  22500f|                    3|
+|         Muni Inspection|                    3|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:49:56.436Z",
+  "batchId" : 10,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.73224043715847,
+  "processedRowsPerSecond" : 2.617372812039915,
+  "durationMs" : {
+    "addBatch" : 12148,
+    "getBatch" : 4,
+    "getOffset" : 2,
+    "queryPlanning" : 50,
+    "triggerExecution" : 12226,
+    "walCommit" : 21
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T19:23:37.777Z",
+    "max" : "2018-12-31T19:35:00.000Z",
+    "min" : "2018-12-31T19:14:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 144,
+    "numRowsUpdated" : 32,
+    "memoryUsedBytes" : 65744
+  }, {
+    "numRowsTotal" : 331,
+    "numRowsUpdated" : 27,
+    "memoryUsedBytes" : 87016
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 320
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 352
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.73224043715847,
+    "processedRowsPerSecond" : 2.617372812039915
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 11
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   79|
+|            Traffic Stop|                   50|
+|      Suspicious Vehicle|                   18|
+|           Audible Alarm|                   18|
+|     Traf Violation Cite|                   14|
+|       Suspicious Person|                   13|
+|      Auto Boost / Strip|                   11|
+|         Fight No Weapon|                   11|
+|        Well Being Check|                   10|
+|                  22500e|                    8|
+|          Noise Nuisance|                    8|
+|              Trespasser|                    8|
+|       Assault / Battery|                    6|
+|         Muni Inspection|                    6|
+|                     601|                    5|
+|      Homeless Complaint|                    5|
+|                      Jo|                    4|
+|                  22500f|                    4|
+|          Meet W/citizen|                    4|
+|                     J/o|                    3|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:50:08.708Z",
+  "batchId" : 11,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.607561929595828,
+  "processedRowsPerSecond" : 3.028009084027252,
+  "durationMs" : {
+    "addBatch" : 10509,
+    "getBatch" : 6,
+    "getOffset" : 3,
+    "queryPlanning" : 34,
+    "triggerExecution" : 10568,
+    "walCommit" : 16
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T19:05:24.000Z",
+    "max" : "2018-12-31T19:13:00.000Z",
+    "min" : "2018-12-31T18:57:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 150,
+    "numRowsUpdated" : 32,
+    "memoryUsedBytes" : 67088
+  }, {
+    "numRowsTotal" : 361,
+    "numRowsUpdated" : 30,
+    "memoryUsedBytes" : 93544
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 352
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 384
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.607561929595828,
+    "processedRowsPerSecond" : 3.028009084027252
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 12
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   84|
+|            Traffic Stop|                   51|
+|      Suspicious Vehicle|                   21|
+|           Audible Alarm|                   19|
+|     Traf Violation Cite|                   15|
+|       Suspicious Person|                   13|
+|      Auto Boost / Strip|                   11|
+|                  22500e|                   11|
+|         Fight No Weapon|                   11|
+|        Well Being Check|                   10|
+|         Muni Inspection|                   10|
+|          Noise Nuisance|                    8|
+|              Trespasser|                    8|
+|       Assault / Battery|                    6|
+|                     601|                    5|
+|      Homeless Complaint|                    5|
+|                      Jo|                    4|
+|                  22500f|                    4|
+|          Meet W/citizen|                    4|
+|                     J/o|                    3|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:50:19.306Z",
+  "batchId" : 12,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 3.0194376297414602,
+  "processedRowsPerSecond" : 2.768884658648438,
+  "durationMs" : {
+    "addBatch" : 11500,
+    "getBatch" : 4,
+    "getOffset" : 3,
+    "queryPlanning" : 33,
+    "triggerExecution" : 11557,
+    "walCommit" : 16
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T18:49:02.142Z",
+    "max" : "2018-12-31T18:57:00.000Z",
+    "min" : "2018-12-31T18:43:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 158,
+    "numRowsUpdated" : 30,
+    "memoryUsedBytes" : 68943
+  }, {
+    "numRowsTotal" : 389,
+    "numRowsUpdated" : 28,
+    "memoryUsedBytes" : 99631
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 384
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 416
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 3.0194376297414602,
+    "processedRowsPerSecond" : 2.768884658648438
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 13
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   87|
+|            Traffic Stop|                   52|
+|      Suspicious Vehicle|                   23|
+|           Audible Alarm|                   21|
+|     Traf Violation Cite|                   15|
+|       Suspicious Person|                   13|
+|         Muni Inspection|                   13|
+|      Auto Boost / Strip|                   11|
+|                  22500e|                   11|
+|         Fight No Weapon|                   11|
+|          Noise Nuisance|                   10|
+|        Well Being Check|                   10|
+|              Trespasser|                    8|
+|       Assault / Battery|                    6|
+|                     601|                    5|
+|          Meet W/citizen|                    5|
+|      Homeless Complaint|                    5|
+|                      Jo|                    4|
+|                  22500f|                    4|
+|                     J/o|                    3|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:50:30.901Z",
+  "batchId" : 13,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.7598102630444155,
+  "processedRowsPerSecond" : 2.5121683152771235,
+  "durationMs" : {
+    "addBatch" : 12673,
+    "getBatch" : 6,
+    "getOffset" : 2,
+    "queryPlanning" : 37,
+    "triggerExecution" : 12738,
+    "walCommit" : 19
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T18:36:02.068Z",
+    "max" : "2018-12-31T18:43:00.000Z",
+    "min" : "2018-12-31T18:29:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 174,
+    "numRowsUpdated" : 42,
+    "memoryUsedBytes" : 72383
+  }, {
+    "numRowsTotal" : 418,
+    "numRowsUpdated" : 29,
+    "memoryUsedBytes" : 105847
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 416
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 448
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.7598102630444155,
+    "processedRowsPerSecond" : 2.5121683152771235
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 14
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                   95|
+|            Traffic Stop|                   53|
+|      Suspicious Vehicle|                   23|
+|           Audible Alarm|                   22|
+|         Muni Inspection|                   17|
+|     Traf Violation Cite|                   15|
+|       Suspicious Person|                   14|
+|         Fight No Weapon|                   13|
+|      Auto Boost / Strip|                   11|
+|                  22500e|                   11|
+|          Noise Nuisance|                   10|
+|              Trespasser|                   10|
+|        Well Being Check|                   10|
+|       Assault / Battery|                    6|
+|                     601|                    6|
+|          Meet W/citizen|                    5|
+|      Homeless Complaint|                    5|
+|                      Jo|                    4|
+|                  22500f|                    4|
+|      Traf Violation Tow|                    4|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:50:43.683Z",
+  "batchId" : 14,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.5035205758097323,
+  "processedRowsPerSecond" : 2.8016109262826125,
+  "durationMs" : {
+    "addBatch" : 11295,
+    "getBatch" : 12,
+    "getOffset" : 8,
+    "queryPlanning" : 73,
+    "triggerExecution" : 11422,
+    "walCommit" : 34
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T18:21:05.806Z",
+    "max" : "2018-12-31T18:29:00.000Z",
+    "min" : "2018-12-31T18:12:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 184,
+    "numRowsUpdated" : 38,
+    "memoryUsedBytes" : 74574
+  }, {
+    "numRowsTotal" : 449,
+    "numRowsUpdated" : 31,
+    "memoryUsedBytes" : 112526
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 448
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 480
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.5035205758097323,
+    "processedRowsPerSecond" : 2.8016109262826125
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 15
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  102|
+|            Traffic Stop|                   53|
+|      Suspicious Vehicle|                   26|
+|           Audible Alarm|                   24|
+|         Muni Inspection|                   20|
+|       Suspicious Person|                   15|
+|     Traf Violation Cite|                   15|
+|         Fight No Weapon|                   14|
+|                  22500e|                   12|
+|              Trespasser|                   12|
+|      Auto Boost / Strip|                   11|
+|          Noise Nuisance|                   11|
+|        Well Being Check|                   10|
+|       Assault / Battery|                    7|
+|                     601|                    7|
+|          Meet W/citizen|                    5|
+|      Homeless Complaint|                    5|
+|                      Jo|                    4|
+|                  22500f|                    4|
+|                Burglary|                    4|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:50:55.133Z",
+  "batchId" : 15,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.794759825327511,
+  "processedRowsPerSecond" : 2.930671306896236,
+  "durationMs" : {
+    "addBatch" : 10858,
+    "getBatch" : 5,
+    "getOffset" : 3,
+    "queryPlanning" : 31,
+    "triggerExecution" : 10919,
+    "walCommit" : 20
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T18:04:46.666Z",
+    "max" : "2018-12-31T18:12:00.000Z",
+    "min" : "2018-12-31T17:59:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 188,
+    "numRowsUpdated" : 30,
+    "memoryUsedBytes" : 75486
+  }, {
+    "numRowsTotal" : 476,
+    "numRowsUpdated" : 27,
+    "memoryUsedBytes" : 118470
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 480
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 512
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.794759825327511,
+    "processedRowsPerSecond" : 2.930671306896236
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 16
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  105|
+|            Traffic Stop|                   54|
+|      Suspicious Vehicle|                   27|
+|           Audible Alarm|                   24|
+|         Muni Inspection|                   23|
+|     Traf Violation Cite|                   17|
+|       Suspicious Person|                   15|
+|         Fight No Weapon|                   14|
+|              Trespasser|                   13|
+|      Auto Boost / Strip|                   12|
+|                  22500e|                   12|
+|          Noise Nuisance|                   11|
+|        Well Being Check|                   10|
+|       Assault / Battery|                    7|
+|                     601|                    7|
+|          Meet W/citizen|                    5|
+|                Burglary|                    5|
+|      Homeless Complaint|                    5|
+|      Traf Violation Tow|                    5|
+|                    Poss|                    5|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:51:06.084Z",
+  "batchId" : 16,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.9221075700849237,
+  "processedRowsPerSecond" : 2.921040620721132,
+  "durationMs" : {
+    "addBatch" : 10823,
+    "getBatch" : 4,
+    "getOffset" : 3,
+    "queryPlanning" : 107,
+    "triggerExecution" : 10955,
+    "walCommit" : 17
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T17:46:06.666Z",
+    "max" : "2018-12-31T17:58:00.000Z",
+    "min" : "2018-12-31T17:34:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 200,
+    "numRowsUpdated" : 44,
+    "memoryUsedBytes" : 78028
+  }, {
+    "numRowsTotal" : 503,
+    "numRowsUpdated" : 27,
+    "memoryUsedBytes" : 124212
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 512
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 544
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.9221075700849237,
+    "processedRowsPerSecond" : 2.921040620721132
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 17
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  110|
+|            Traffic Stop|                   55|
+|         Muni Inspection|                   30|
+|      Suspicious Vehicle|                   28|
+|           Audible Alarm|                   25|
+|     Traf Violation Cite|                   19|
+|       Suspicious Person|                   16|
+|         Fight No Weapon|                   15|
+|              Trespasser|                   13|
+|      Auto Boost / Strip|                   12|
+|                  22500e|                   12|
+|          Noise Nuisance|                   11|
+|        Well Being Check|                   11|
+|       Assault / Battery|                    7|
+|                     601|                    7|
+|          Meet W/citizen|                    5|
+|                Burglary|                    5|
+|      Homeless Complaint|                    5|
+|      Traf Violation Tow|                    5|
+|                    Poss|                    5|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:51:17.075Z",
+  "batchId" : 17,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.9114730233827677,
+  "processedRowsPerSecond" : 2.8715003589375447,
+  "durationMs" : {
+    "addBatch" : 11097,
+    "getBatch" : 5,
+    "getOffset" : 3,
+    "queryPlanning" : 24,
+    "triggerExecution" : 11144,
+    "walCommit" : 15
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T17:26:32.307Z",
+    "max" : "2018-12-31T17:34:00.000Z",
+    "min" : "2018-12-31T17:19:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 208,
+    "numRowsUpdated" : 30,
+    "memoryUsedBytes" : 79805
+  }, {
+    "numRowsTotal" : 529,
+    "numRowsUpdated" : 26,
+    "memoryUsedBytes" : 129861
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 544
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 576
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.9114730233827677,
+    "processedRowsPerSecond" : 2.8715003589375447
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 18
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  116|
+|            Traffic Stop|                   56|
+|         Muni Inspection|                   37|
+|      Suspicious Vehicle|                   29|
+|           Audible Alarm|                   25|
+|     Traf Violation Cite|                   20|
+|       Suspicious Person|                   17|
+|         Fight No Weapon|                   15|
+|                  22500e|                   14|
+|              Trespasser|                   13|
+|      Auto Boost / Strip|                   12|
+|          Noise Nuisance|                   11|
+|        Well Being Check|                   11|
+|       Assault / Battery|                    7|
+|                     601|                    7|
+|                    Poss|                    6|
+|          Meet W/citizen|                    5|
+|                Burglary|                    5|
+|      Homeless Complaint|                    5|
+|      Traf Violation Tow|                    5|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:51:28.250Z",
+  "batchId" : 18,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.8635346756152122,
+  "processedRowsPerSecond" : 2.85816362986781,
+  "durationMs" : {
+    "addBatch" : 11142,
+    "getBatch" : 5,
+    "getOffset" : 3,
+    "queryPlanning" : 32,
+    "triggerExecution" : 11196,
+    "walCommit" : 14
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T17:13:36.428Z",
+    "max" : "2018-12-31T17:19:00.000Z",
+    "min" : "2018-12-31T17:07:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 214,
+    "numRowsUpdated" : 32,
+    "memoryUsedBytes" : 81195
+  }, {
+    "numRowsTotal" : 557,
+    "numRowsUpdated" : 28,
+    "memoryUsedBytes" : 135963
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 576
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 608
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.8635346756152122,
+    "processedRowsPerSecond" : 2.85816362986781
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 19
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  124|
+|            Traffic Stop|                   58|
+|         Muni Inspection|                   43|
+|      Suspicious Vehicle|                   29|
+|           Audible Alarm|                   25|
+|     Traf Violation Cite|                   20|
+|       Suspicious Person|                   17|
+|         Fight No Weapon|                   15|
+|                  22500e|                   14|
+|              Trespasser|                   14|
+|      Auto Boost / Strip|                   13|
+|        Well Being Check|                   13|
+|          Noise Nuisance|                   12|
+|                     601|                    8|
+|       Assault / Battery|                    7|
+|      Traf Violation Tow|                    6|
+|                    Poss|                    6|
+|                      Jo|                    5|
+|          Meet W/citizen|                    5|
+|                Burglary|                    5|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:51:39.470Z",
+  "batchId" : 19,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.8520499108734403,
+  "processedRowsPerSecond" : 2.81467147506377,
+  "durationMs" : {
+    "addBatch" : 11229,
+    "getBatch" : 7,
+    "getOffset" : 3,
+    "queryPlanning" : 102,
+    "triggerExecution" : 11369,
+    "walCommit" : 27
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T17:00:15.000Z",
+    "max" : "2018-12-31T17:07:00.000Z",
+    "min" : "2018-12-31T16:54:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 218,
+    "numRowsUpdated" : 28,
+    "memoryUsedBytes" : 82123
+  }, {
+    "numRowsTotal" : 585,
+    "numRowsUpdated" : 28,
+    "memoryUsedBytes" : 141923
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 608
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 640
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.8520499108734403,
+    "processedRowsPerSecond" : 2.81467147506377
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 20
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  135|
+|            Traffic Stop|                   59|
+|         Muni Inspection|                   49|
+|      Suspicious Vehicle|                   29|
+|           Audible Alarm|                   26|
+|     Traf Violation Cite|                   21|
+|       Suspicious Person|                   18|
+|                  22500e|                   15|
+|         Fight No Weapon|                   15|
+|              Trespasser|                   14|
+|        Well Being Check|                   14|
+|      Auto Boost / Strip|                   13|
+|          Noise Nuisance|                   13|
+|                     601|                    8|
+|       Assault / Battery|                    7|
+|                    Poss|                    7|
+|      Traf Violation Tow|                    6|
+|                      Jo|                    5|
+|                  22500f|                    5|
+|          Meet W/citizen|                    5|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:51:50.867Z",
+  "batchId" : 20,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.8077564271299464,
+  "processedRowsPerSecond" : 2.926650813974758,
+  "durationMs" : {
+    "addBatch" : 10878,
+    "getBatch" : 6,
+    "getOffset" : 2,
+    "queryPlanning" : 27,
+    "triggerExecution" : 10934,
+    "walCommit" : 21
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T16:42:59.999Z",
+    "max" : "2018-12-31T16:54:00.000Z",
+    "min" : "2018-12-31T16:36:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 226,
+    "numRowsUpdated" : 34,
+    "memoryUsedBytes" : 83948
+  }, {
+    "numRowsTotal" : 617,
+    "numRowsUpdated" : 32,
+    "memoryUsedBytes" : 148700
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 640
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 672
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.8077564271299464,
+    "processedRowsPerSecond" : 2.926650813974758
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 21
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  142|
+|            Traffic Stop|                   59|
+|         Muni Inspection|                   54|
+|      Suspicious Vehicle|                   30|
+|           Audible Alarm|                   26|
+|     Traf Violation Cite|                   23|
+|       Suspicious Person|                   18|
+|         Fight No Weapon|                   18|
+|                  22500e|                   15|
+|          Noise Nuisance|                   14|
+|              Trespasser|                   14|
+|        Well Being Check|                   14|
+|      Auto Boost / Strip|                   13|
+|                     601|                    8|
+|                    Poss|                    8|
+|       Assault / Battery|                    7|
+|          Meet W/citizen|                    6|
+|      Traf Violation Tow|                    6|
+|                      Jo|                    5|
+|             Petty Theft|                    5|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:52:01.822Z",
+  "batchId" : 21,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.921040620721132,
+  "processedRowsPerSecond" : 2.9723202675088243,
+  "durationMs" : {
+    "addBatch" : 10699,
+    "getBatch" : 4,
+    "getOffset" : 4,
+    "queryPlanning" : 42,
+    "triggerExecution" : 10766,
+    "walCommit" : 16
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T16:28:32.903Z",
+    "max" : "2018-12-31T16:35:00.000Z",
+    "min" : "2018-12-31T16:22:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 230,
+    "numRowsUpdated" : 34,
+    "memoryUsedBytes" : 84876
+  }, {
+    "numRowsTotal" : 648,
+    "numRowsUpdated" : 31,
+    "memoryUsedBytes" : 155308
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 672
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 704
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.921040620721132,
+    "processedRowsPerSecond" : 2.9723202675088243
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 22
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  149|
+|            Traffic Stop|                   59|
+|         Muni Inspection|                   56|
+|      Suspicious Vehicle|                   30|
+|           Audible Alarm|                   27|
+|     Traf Violation Cite|                   25|
+|         Fight No Weapon|                   23|
+|       Suspicious Person|                   18|
+|                  22500e|                   16|
+|              Trespasser|                   16|
+|          Noise Nuisance|                   14|
+|        Well Being Check|                   14|
+|      Auto Boost / Strip|                   13|
+|                     601|                    8|
+|                    Poss|                    8|
+|       Assault / Battery|                    7|
+|                  22500f|                    7|
+|          Meet W/citizen|                    7|
+|      Traf Violation Tow|                    7|
+|                      Jo|                    5|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:52:12.621Z",
+  "batchId" : 22,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.963237336790444,
+  "processedRowsPerSecond" : 3.224831200241862,
+  "durationMs" : {
+    "addBatch" : 9869,
+    "getBatch" : 3,
+    "getOffset" : 2,
+    "queryPlanning" : 27,
+    "triggerExecution" : 9923,
+    "walCommit" : 21
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T16:15:25.161Z",
+    "max" : "2018-12-31T16:22:00.000Z",
+    "min" : "2018-12-31T16:08:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 238,
+    "numRowsUpdated" : 34,
+    "memoryUsedBytes" : 86636
+  }, {
+    "numRowsTotal" : 679,
+    "numRowsUpdated" : 31,
+    "memoryUsedBytes" : 162068
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 704
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 736
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.963237336790444,
+    "processedRowsPerSecond" : 3.224831200241862
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 23
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  156|
+|            Traffic Stop|                   59|
+|         Muni Inspection|                   57|
+|      Suspicious Vehicle|                   33|
+|     Traf Violation Cite|                   28|
+|           Audible Alarm|                   27|
+|         Fight No Weapon|                   25|
+|       Suspicious Person|                   20|
+|                  22500e|                   18|
+|              Trespasser|                   16|
+|          Noise Nuisance|                   14|
+|        Well Being Check|                   14|
+|      Auto Boost / Strip|                   13|
+|                     601|                   10|
+|                    Poss|                    9|
+|          Meet W/citizen|                    8|
+|       Assault / Battery|                    7|
+|                  22500f|                    7|
+|      Traf Violation Tow|                    7|
+|                      Jo|                    6|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:52:22.584Z",
+  "batchId" : 23,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 3.211883970691559,
+  "processedRowsPerSecond" : 2.96708391284191,
+  "durationMs" : {
+    "addBatch" : 10730,
+    "getBatch" : 3,
+    "getOffset" : 3,
+    "queryPlanning" : 28,
+    "triggerExecution" : 10785,
+    "walCommit" : 18
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T15:58:59.999Z",
+    "max" : "2018-12-31T16:08:00.000Z",
+    "min" : "2018-12-31T15:50:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 244,
+    "numRowsUpdated" : 32,
+    "memoryUsedBytes" : 87944
+  }, {
+    "numRowsTotal" : 709,
+    "numRowsUpdated" : 30,
+    "memoryUsedBytes" : 168776
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 736
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 768
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 3.211883970691559,
+    "processedRowsPerSecond" : 2.96708391284191
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 24
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  160|
+|            Traffic Stop|                   59|
+|         Muni Inspection|                   57|
+|      Suspicious Vehicle|                   34|
+|     Traf Violation Cite|                   29|
+|           Audible Alarm|                   29|
+|         Fight No Weapon|                   25|
+|       Suspicious Person|                   21|
+|                  22500e|                   19|
+|              Trespasser|                   16|
+|      Auto Boost / Strip|                   15|
+|        Well Being Check|                   15|
+|          Noise Nuisance|                   14|
+|                     601|                   10|
+|          Meet W/citizen|                    9|
+|                    Poss|                    9|
+|       Assault / Battery|                    8|
+|                  22500f|                    7|
+|      Traf Violation Tow|                    7|
+|                      Jo|                    6|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:52:33.392Z",
+  "batchId" : 24,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.9607698001480385,
+  "processedRowsPerSecond" : 2.5015634771732334,
+  "durationMs" : {
+    "addBatch" : 12739,
+    "getBatch" : 4,
+    "getOffset" : 4,
+    "queryPlanning" : 25,
+    "triggerExecution" : 12792,
+    "walCommit" : 18
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T15:39:24.375Z",
+    "max" : "2018-12-31T15:50:00.000Z",
+    "min" : "2018-12-31T15:30:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 258,
+    "numRowsUpdated" : 52,
+    "memoryUsedBytes" : 91017
+  }, {
+    "numRowsTotal" : 741,
+    "numRowsUpdated" : 32,
+    "memoryUsedBytes" : 175985
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 768
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 800
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.9607698001480385,
+    "processedRowsPerSecond" : 2.5015634771732334
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 25
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  166|
+|            Traffic Stop|                   61|
+|         Muni Inspection|                   57|
+|      Suspicious Vehicle|                   34|
+|           Audible Alarm|                   30|
+|     Traf Violation Cite|                   29|
+|         Fight No Weapon|                   25|
+|                  22500e|                   22|
+|       Suspicious Person|                   22|
+|              Trespasser|                   17|
+|        Well Being Check|                   16|
+|      Auto Boost / Strip|                   15|
+|          Noise Nuisance|                   15|
+|                     601|                   10|
+|          Meet W/citizen|                   10|
+|                    Poss|                    9|
+|       Assault / Battery|                    8|
+|                  22500f|                    7|
+|      Traf Violation Tow|                    7|
+|                      Jo|                    6|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:52:46.225Z",
+  "batchId" : 25,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.4935712615912102,
+  "processedRowsPerSecond" : 2.795003930474277,
+  "durationMs" : {
+    "addBatch" : 11364,
+    "getBatch" : 4,
+    "getOffset" : 2,
+    "queryPlanning" : 53,
+    "triggerExecution" : 11449,
+    "walCommit" : 24
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T15:20:14.482Z",
+    "max" : "2018-12-31T15:28:00.000Z",
+    "min" : "2018-12-31T15:13:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 268,
+    "numRowsUpdated" : 38,
+    "memoryUsedBytes" : 93177
+  }, {
+    "numRowsTotal" : 770,
+    "numRowsUpdated" : 29,
+    "memoryUsedBytes" : 182305
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 800
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 832
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.4935712615912102,
+    "processedRowsPerSecond" : 2.795003930474277
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 26
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  168|
+|            Traffic Stop|                   62|
+|         Muni Inspection|                   57|
+|      Suspicious Vehicle|                   34|
+|     Traf Violation Cite|                   32|
+|           Audible Alarm|                   30|
+|         Fight No Weapon|                   26|
+|                  22500e|                   23|
+|       Suspicious Person|                   23|
+|              Trespasser|                   18|
+|        Well Being Check|                   17|
+|      Auto Boost / Strip|                   15|
+|          Noise Nuisance|                   15|
+|                     601|                   11|
+|          Meet W/citizen|                   10|
+|                    Poss|                   10|
+|       Assault / Battery|                    9|
+|                  22500f|                    7|
+|      Traf Violation Tow|                    7|
+|                      Jo|                    6|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:52:57.694Z",
+  "batchId" : 26,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.790129915424187,
+  "processedRowsPerSecond" : 2.9167806034089874,
+  "durationMs" : {
+    "addBatch" : 10920,
+    "getBatch" : 3,
+    "getOffset" : 3,
+    "queryPlanning" : 25,
+    "triggerExecution" : 10971,
+    "walCommit" : 19
+  },
+  "eventTime" : {
+    "avg" : "2018-12-31T15:03:41.739Z",
+    "max" : "2018-12-31T15:10:00.000Z",
+    "min" : "2018-12-31T14:54:00.000Z",
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 270,
+    "numRowsUpdated" : 36,
+    "memoryUsedBytes" : 93673
+  }, {
+    "numRowsTotal" : 793,
+    "numRowsUpdated" : 23,
+    "memoryUsedBytes" : 187417
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 832
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 864
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.790129915424187,
+    "processedRowsPerSecond" : 2.9167806034089874
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 27
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  168|
+|            Traffic Stop|                   62|
+|         Muni Inspection|                   57|
+|      Suspicious Vehicle|                   34|
+|     Traf Violation Cite|                   32|
+|           Audible Alarm|                   30|
+|         Fight No Weapon|                   26|
+|                  22500e|                   23|
+|       Suspicious Person|                   23|
+|              Trespasser|                   18|
+|        Well Being Check|                   17|
+|      Auto Boost / Strip|                   15|
+|          Noise Nuisance|                   15|
+|                     601|                   11|
+|          Meet W/citizen|                   10|
+|                    Poss|                   10|
+|       Assault / Battery|                    9|
+|                  22500f|                    7|
+|      Traf Violation Tow|                    7|
+|                      Jo|                    6|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:53:08.689Z",
+  "batchId" : 27,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.9104138244656665,
+  "processedRowsPerSecond" : 2.9767441860465116,
+  "durationMs" : {
+    "addBatch" : 10700,
+    "getBatch" : 4,
+    "getOffset" : 2,
+    "queryPlanning" : 25,
+    "triggerExecution" : 10750,
+    "walCommit" : 17
+  },
+  "eventTime" : {
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 270,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 93673
+  }, {
+    "numRowsTotal" : 793,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 187689
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 864
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 896
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.9104138244656665,
+    "processedRowsPerSecond" : 2.9767441860465116
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 28
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  168|
+|            Traffic Stop|                   62|
+|         Muni Inspection|                   57|
+|      Suspicious Vehicle|                   34|
+|     Traf Violation Cite|                   32|
+|           Audible Alarm|                   30|
+|         Fight No Weapon|                   26|
+|                  22500e|                   23|
+|       Suspicious Person|                   23|
+|              Trespasser|                   18|
+|        Well Being Check|                   17|
+|      Auto Boost / Strip|                   15|
+|          Noise Nuisance|                   15|
+|                     601|                   11|
+|          Meet W/citizen|                   10|
+|                    Poss|                   10|
+|       Assault / Battery|                    9|
+|                  22500f|                    7|
+|      Traf Violation Tow|                    7|
+|                      Jo|                    6|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:53:19.466Z",
+  "batchId" : 28,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.9692864433515824,
+  "processedRowsPerSecond" : 2.9881408161359606,
+  "durationMs" : {
+    "addBatch" : 10658,
+    "getBatch" : 4,
+    "getOffset" : 1,
+    "queryPlanning" : 27,
+    "triggerExecution" : 10709,
+    "walCommit" : 17
+  },
+  "eventTime" : {
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 270,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 93673
+  }, {
+    "numRowsTotal" : 793,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 187689
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 896
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 928
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.9692864433515824,
+    "processedRowsPerSecond" : 2.9881408161359606
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 29
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  168|
+|            Traffic Stop|                   62|
+|         Muni Inspection|                   57|
+|      Suspicious Vehicle|                   34|
+|     Traf Violation Cite|                   32|
+|           Audible Alarm|                   30|
+|         Fight No Weapon|                   26|
+|                  22500e|                   23|
+|       Suspicious Person|                   23|
+|              Trespasser|                   18|
+|        Well Being Check|                   17|
+|      Auto Boost / Strip|                   15|
+|          Noise Nuisance|                   15|
+|                     601|                   11|
+|          Meet W/citizen|                   10|
+|                    Poss|                   10|
+|       Assault / Battery|                    9|
+|                  22500f|                    7|
+|      Traf Violation Tow|                    7|
+|                      Jo|                    6|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:53:30.209Z",
+  "batchId" : 29,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.9786837940984827,
+  "processedRowsPerSecond" : 2.772483105181078,
+  "durationMs" : {
+    "addBatch" : 11487,
+    "getBatch" : 5,
+    "getOffset" : 3,
+    "queryPlanning" : 28,
+    "triggerExecution" : 11542,
+    "walCommit" : 18
+  },
+  "eventTime" : {
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 270,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 93673
+  }, {
+    "numRowsTotal" : 793,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 187689
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 928
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 960
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.9786837940984827,
+    "processedRowsPerSecond" : 2.772483105181078
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 30
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  168|
+|            Traffic Stop|                   62|
+|         Muni Inspection|                   57|
+|      Suspicious Vehicle|                   34|
+|     Traf Violation Cite|                   32|
+|           Audible Alarm|                   30|
+|         Fight No Weapon|                   26|
+|                  22500e|                   23|
+|       Suspicious Person|                   23|
+|              Trespasser|                   18|
+|        Well Being Check|                   17|
+|      Auto Boost / Strip|                   15|
+|          Noise Nuisance|                   15|
+|                     601|                   11|
+|          Meet W/citizen|                   10|
+|                    Poss|                   10|
+|       Assault / Battery|                    9|
+|                  22500f|                    7|
+|      Traf Violation Tow|                    7|
+|                      Jo|                    6|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:53:41.837Z",
+  "batchId" : 30,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.7519779841761265,
+  "processedRowsPerSecond" : 3.0563514804202483,
+  "durationMs" : {
+    "addBatch" : 10384,
+    "getBatch" : 8,
+    "getOffset" : 2,
+    "queryPlanning" : 36,
+    "triggerExecution" : 10470,
+    "walCommit" : 38
+  },
+  "eventTime" : {
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 270,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 93673
+  }, {
+    "numRowsTotal" : 793,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 187689
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 960
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 992
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.7519779841761265,
+    "processedRowsPerSecond" : 3.0563514804202483
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 31
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  168|
+|            Traffic Stop|                   62|
+|         Muni Inspection|                   57|
+|      Suspicious Vehicle|                   34|
+|     Traf Violation Cite|                   32|
+|           Audible Alarm|                   30|
+|         Fight No Weapon|                   26|
+|                  22500e|                   23|
+|       Suspicious Person|                   23|
+|              Trespasser|                   18|
+|        Well Being Check|                   17|
+|      Auto Boost / Strip|                   15|
+|          Noise Nuisance|                   15|
+|                     601|                   11|
+|          Meet W/citizen|                   10|
+|                    Poss|                   10|
+|       Assault / Battery|                    9|
+|                  22500f|                    7|
+|      Traf Violation Tow|                    7|
+|                      Jo|                    6|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:53:52.334Z",
+  "batchId" : 31,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 3.0484900447746974,
+  "processedRowsPerSecond" : 2.914655250933601,
+  "durationMs" : {
+    "addBatch" : 10931,
+    "getBatch" : 4,
+    "getOffset" : 3,
+    "queryPlanning" : 25,
+    "triggerExecution" : 10979,
+    "walCommit" : 16
+  },
+  "eventTime" : {
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 270,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 93673
+  }, {
+    "numRowsTotal" : 793,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 187689
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 992
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 1024
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 3.0484900447746974,
+    "processedRowsPerSecond" : 2.914655250933601
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 32
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  168|
+|            Traffic Stop|                   62|
+|         Muni Inspection|                   57|
+|      Suspicious Vehicle|                   34|
+|     Traf Violation Cite|                   32|
+|           Audible Alarm|                   30|
+|         Fight No Weapon|                   26|
+|                  22500e|                   23|
+|       Suspicious Person|                   23|
+|              Trespasser|                   18|
+|        Well Being Check|                   17|
+|      Auto Boost / Strip|                   15|
+|          Noise Nuisance|                   15|
+|                     601|                   11|
+|          Meet W/citizen|                   10|
+|                    Poss|                   10|
+|       Assault / Battery|                    9|
+|                  22500f|                    7|
+|      Traf Violation Tow|                    7|
+|                      Jo|                    6|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:54:03.353Z",
+  "batchId" : 32,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.9040747799255833,
+  "processedRowsPerSecond" : 2.9864675688287448,
+  "durationMs" : {
+    "addBatch" : 10650,
+    "getBatch" : 4,
+    "getOffset" : 3,
+    "queryPlanning" : 25,
+    "triggerExecution" : 10715,
+    "walCommit" : 33
+  },
+  "eventTime" : {
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 270,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 93673
+  }, {
+    "numRowsTotal" : 793,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 187689
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 1024
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 1056
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.9040747799255833,
+    "processedRowsPerSecond" : 2.9864675688287448
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 33
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  168|
+|            Traffic Stop|                   62|
+|         Muni Inspection|                   57|
+|      Suspicious Vehicle|                   34|
+|     Traf Violation Cite|                   32|
+|           Audible Alarm|                   30|
+|         Fight No Weapon|                   26|
+|                  22500e|                   23|
+|       Suspicious Person|                   23|
+|              Trespasser|                   18|
+|        Well Being Check|                   17|
+|      Auto Boost / Strip|                   15|
+|          Noise Nuisance|                   15|
+|                     601|                   11|
+|          Meet W/citizen|                   10|
+|                    Poss|                   10|
+|       Assault / Battery|                    9|
+|                  22500f|                    7|
+|      Traf Violation Tow|                    7|
+|                      Jo|                    6|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:54:14.104Z",
+  "batchId" : 33,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 2.976467305366943,
+  "processedRowsPerSecond" : 3.173658633343251,
+  "durationMs" : {
+    "addBatch" : 9973,
+    "getBatch" : 4,
+    "getOffset" : 3,
+    "queryPlanning" : 40,
+    "triggerExecution" : 10083,
+    "walCommit" : 61
+  },
+  "eventTime" : {
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 270,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 93673
+  }, {
+    "numRowsTotal" : 793,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 187689
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 1056
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 1088
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 2.976467305366943,
+    "processedRowsPerSecond" : 3.173658633343251
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
+-------------------------------------------
+Batch: 34
+-------------------------------------------
++------------------------+---------------------+
+|original_crime_type_name|count(call_date_time)|
++------------------------+---------------------+
+|            Passing Call|                  168|
+|            Traffic Stop|                   62|
+|         Muni Inspection|                   57|
+|      Suspicious Vehicle|                   34|
+|     Traf Violation Cite|                   32|
+|           Audible Alarm|                   30|
+|         Fight No Weapon|                   26|
+|                  22500e|                   23|
+|       Suspicious Person|                   23|
+|              Trespasser|                   18|
+|        Well Being Check|                   17|
+|      Auto Boost / Strip|                   15|
+|          Noise Nuisance|                   15|
+|                     601|                   11|
+|          Meet W/citizen|                   10|
+|                    Poss|                   10|
+|       Assault / Battery|                    9|
+|                  22500f|                    7|
+|      Traf Violation Tow|                    7|
+|                      Jo|                    6|
++------------------------+---------------------+
+only showing top 20 rows
+
+  "id" : "a3c04d98-3116-4c8a-af9f-2c31aa1e2cad",
+  "runId" : "140d1faa-1862-4ba7-ae81-256ff953c077",
+  "name" : "sf_crime_stats",
+  "timestamp" : "2020-06-28T10:54:24.208Z",
+  "batchId" : 34,
+  "numInputRows" : 32,
+  "inputRowsPerSecond" : 3.1670625494853524,
+  "processedRowsPerSecond" : 2.944423997055576,
+  "durationMs" : {
+    "addBatch" : 10816,
+    "getBatch" : 4,
+    "getOffset" : 5,
+    "queryPlanning" : 26,
+    "triggerExecution" : 10868,
+    "walCommit" : 16
+  },
+  "eventTime" : {
+    "watermark" : "2018-12-31T23:52:00.000Z"
+  },
+  "stateOperators" : [ {
+    "numRowsTotal" : 270,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 93673
+  }, {
+    "numRowsTotal" : 793,
+    "numRowsUpdated" : 0,
+    "memoryUsedBytes" : 187689
+  } ],
+  "sources" : [ {
+    "description" : "KafkaSource[Subscribe[com.udacity.streams.sf_crime_stats.from_json]]",
+    "startOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 1088
+      }
+    },
+    "endOffset" : {
+      "com.udacity.streams.sf_crime_stats.from_json" : {
+        "0" : 1120
+      }
+    },
+    "numInputRows" : 32,
+    "inputRowsPerSecond" : 3.1670625494853524,
+    "processedRowsPerSecond" : 2.944423997055576
+  } ],
+  "sink" : {
+    "description" : "org.apache.spark.sql.execution.streaming.ConsoleSinkProvider@4cacabfa"
+  }
+}
