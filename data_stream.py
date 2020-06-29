@@ -33,10 +33,10 @@ def run_spark_job(spark):
         .format("kafka") \
         .option("kafka.bootstrap.servers", KAFKA_BROKER_URL) \
         .option("subscribe", KAFKA_TOPIC_NAME) \
-        .option('startingOffsets', 'earliest') \
-        .option('maxOffsetsPerTrigger', 32) \
-        .option('maxRatePerPartition', 32) \
-        .option('stopGracefullyOnShutdown', "true") \
+        .option("startingOffsets", "earliest") \
+        .option("maxOffsetsPerTrigger", 64) \
+        .option("maxRatePerPartition", 64) \
+        .option("stopGracefullyOnShutdown", "true") \
         .load()
 
     # Show schema for the incoming resources for checks
@@ -95,6 +95,9 @@ if __name__ == "__main__":
         .master("local[*]") \
         .appName("KafkaSparkStructuredStreaming") \
         .config("spark.ui.port", 3000) \
+        .config("spark.executor.memory", "2g") \
+        .config("spark.executor.instances", "2") \
+        .config("spark.driver.memory", "4g") \
         .getOrCreate()
 
     logger.info("Spark started")
